@@ -1,0 +1,213 @@
+body {
+    background-color: #d5d5d5
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    border: 0px;
+    padding-left: 50px;
+}
+
+.navbar-brand {
+    background-color: #0783BC;
+    color: #ffffff;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+li a {
+    color: #000000;
+    padding: 10px
+}
+
+#landing {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px
+}
+
+#temp-summary {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px
+}
+
+#humid-summary {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px
+}
+
+#cloud-summary {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px
+}
+
+#wind-summary {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px
+}
+
+.left-side {
+    position: relative;
+    margin-left: 20px
+}
+
+#header {
+    color: #0783BC;
+    padding-top: 20px;
+}
+
+#left-header {
+    color: #0783BC
+}
+
+#right-header {
+    color: #0783BC
+}
+
+#landing-left {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 60px;
+    background-color: #ffffff
+}
+
+#landing-right {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #ffffff
+}
+
+#example {
+    float: left
+}
+
+#main-image {
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+#temp-left {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: #ffffff
+}
+
+#temp-right {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 350px;
+    padding: 20px;
+    background-color: #ffffff
+}
+
+#humid-left {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: #ffffff
+}
+
+#humid-right {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#cloud-left {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: #ffffff
+}
+
+#cloud-right {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#wind-left {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    background-color: #ffffff
+}
+
+#wind-right {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#comparison {
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+#data {
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    padding: 50px;
+}
+
+h6 {
+    text-align: center;
+    color: #0783BC
+}
+
+th {
+    background-color: #0783BC;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#max-temp {
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px
+}
+
+#humidity {
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px
+}
+
+#cloudiness {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+#wind-speed {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px
+}
