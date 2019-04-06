@@ -9,23 +9,34 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html"><h5>Latitude</h5></a>
-            </div>
-            <ul class="nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Plots</a>
-                </li>
-                <ul class="dropdown-menu">
-                    <li><a href="max-temp.html">Max Temperature</a></li>
-                    <li><a href="humidity.html">Humidity</a></li>
-                    <li><a href="cloudiness.html">Cloudiness</a></li>
-                    <li><a href="wind-speed.html">Wind Speed</a></li>
-                </ul>
-                <li class="active"><a href="comparison.html">Comparisons</a></li>
-                <li class="active"><a href="data.html">Data</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><h5>Latitude</h5></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="max-temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind-speed.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html" tabindex="-1" aria-disabled="true">Data</a>
+            </li>
             </ul>
         </div>
     </nav>
@@ -34,28 +45,37 @@
             <div class="col-12 col-lg-7" id="temp-left">
                 <h2 id="left-header">Max Temperature</h2><hr>
                 <a href="max-temp.html"><img src="https://raw.githubusercontent.com/eric-ruzzo/eric-ruzzo.github.io/master/Resources/assets/images/Fig1.png" id="main-image"></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sem lorem, aliquam quis erat a, molestie vehicula ligula. Pellentesque euismod nulla et odio aliquet, in egestas erat rhoncus. Vestibulum in quam vitae neque consectetur lobortis ac id libero. In venenatis laoreet tempus. Pellentesque lacinia neque ut nulla pulvinar mattis. Nunc ultrices scelerisque augue ac dictum. Etiam ultrices fringilla malesuada.</p>
+                <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the Earth at the time of the year this data was gathered.</p>
             </div>
 
             <div class="col-12 col-lg-3" id="temp-right">
                 <h3 id="right-header">Visualizations</h3><hr>
                 <div class="row top-thumbnail">
                     <div class="col-3 col-lg-6" class="left-side">
-                        <a href="max-temp.html"><img src="https://raw.githubusercontent.com/eric-ruzzo/eric-ruzzo.github.io/master/Resources/assets/images/Fig1.png" width=140% height=180% id="max-temp"></a>
+                        <a href="max-temp.html"><img src="https://raw.githubusercontent.com/eric-ruzzo/eric-ruzzo.github.io/master/Resources/assets/images/Fig1.png" class="img-fluid" id="max-temp"></a>
                     </div>
                     <div class="col-3 col-lg-6" class="right-side">
-                        <a href="humidity.html"><img src="https://raw.githubusercontent.com/eric-ruzzo/eric-ruzzo.github.io/master/Resources/assets/images/Fig2.png" width=140% height=180% id="humidity"></a>
+                        <a href="humidity.html"><img src="https://raw.githubusercontent.com/eric-ruzzo/eric-ruzzo.github.io/master/Resources/assets/images/Fig2.png" class="img-fluid" id="humidity"></a>
                     </div>
                     <div class="col-3 col-lg-6" class="left-side">
-                        <a href="cloudiness.html"><img src="https://raw.githubusercontent.com/eric-ruzzo/eric-ruzzo.github.io/master/Resources/assets/images/Fig3.png" width=140% height=180% id="cloudiness"></a>
+                        <a href="cloudiness.html"><img src="https://raw.githubusercontent.com/eric-ruzzo/eric-ruzzo.github.io/master/Resources/assets/images/Fig3.png" class="img-fluid" id="cloudiness"></a>
                     </div>
                     <div class="col-3 col-lg-6" class="right-side">
-                        <a href="wind-speed.html"><img src="https://raw.githubusercontent.com/eric-ruzzo/eric-ruzzo.github.io/master/Resources/assets/images/Fig4.png" width=140% height=180% id="wind-speed"></a>
+                        <a href="wind-speed.html"><img src="https://raw.githubusercontent.com/eric-ruzzo/eric-ruzzo.github.io/master/Resources/assets/images/Fig4.png" class="img-fluid" id="wind-speed"></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+<script
+src=“https://code.jquery.com/jquery-3.3.1.min.js”
+integrity=“sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=”
+crossorigin=“anonymous”></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
